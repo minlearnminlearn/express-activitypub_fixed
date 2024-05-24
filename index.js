@@ -58,7 +58,7 @@ function asyncAuthorizer(username, password, cb) {
   }
 }
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('here shows first user's outbox feed'));
 
 // admin page
 app.options('/api', cors());
